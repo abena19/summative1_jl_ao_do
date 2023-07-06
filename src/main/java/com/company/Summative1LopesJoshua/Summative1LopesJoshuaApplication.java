@@ -11,9 +11,4 @@ public class Summative1LopesJoshuaApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(Summative1LopesJoshuaApplication.class, args);
 	}
-
-	@Bean
-	public RestTemplate restTemplate() {
-		return new RestTemplate();
-	}
 }
