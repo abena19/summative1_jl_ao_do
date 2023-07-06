@@ -1,7 +1,8 @@
 package com.company.Summative1LopesJoshua.controllers;
 
+import com.company.Summative1LopesJoshua.QuoteService;
 import com.company.Summative1LopesJoshua.models.Quote;
-import com.company.Summative1LopesJoshua.services.QuoteService;
+import com.company.Summative1LopesJoshua.QuoteService;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;

@@ -7,7 +7,7 @@ public class Quote {
 
     public Quote() {}
 
-    public Quote(String author, String quote, int id) {
+    public Quote(int id, String author, String quote) {
         this.author = author;
         this.quote = quote;
         this.id = id;
